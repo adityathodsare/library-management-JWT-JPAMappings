@@ -14,7 +14,7 @@ public class IssueRecored {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private LocalDate issueDate;
-    private LocalDate durDate;
+    private LocalDate dueDate;
     private LocalDate returnDate;
     private Boolean isReturned;
 
